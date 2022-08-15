@@ -1,14 +1,14 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Dziri":
+  - firstname: ["Nouha", "Nouha Dziri"]
+    url: https://cs.ualberta.ca/~dziri
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Rafiei":
+  - firstname: ["Davood", "Davood Rafiei"]
+    url: https://cs.ualberta.ca/~drafiei
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Zaiane":
+  - firstname: ["Osmar",]
+    url: https://cs.ualberta.ca/~zaiane
 
 "Bach": 
   - firstname: ["Johann Sebastian", "J. S."]

@@ -1,97 +1,97 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+#- title: General Information
+#  type: map
+#  contents:
+#    - name: Full Name
+#      value: Ehsan Kamalloo
+#    - name: Languages
+#      value: English, Persian
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: University of Alberta, Edmonton, Canada
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - <u>Thesis:</u> Robust Knowledge Acquisition in Answering Information-seeking Questions.
+#        - Description 2.
+#        - title: Robust Knowledge Acquisition in Answering Information-seeking Questions.
+#          contents:
+#            - Sub-description 1.
+#            - Sub-description 2.
+#    - title: MSc
+#      institution: Tarbiat Modares University, Tehran, Iran
+#      year: 2011
+#      description:
+#        - <u>Thesis:</u> Credit Management Using Artificial Immune Systems
+#    - title: BSc
+#      institution: University of Tehran, Tehran, Iran
+#      year: 2008
+#      description:
+#        - <u>Thesis:</u> A Morphology-based Stemmer for the Persian language
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant
+      institution: Department of Computing Science, University of Alberta, Canada.
+      year: 2016 - 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Explore information retrieval models suitable for NLP tasks.
+    - title: Associate Researcher (Part-time)
+      institution: Huawei Noah's Ark Lab, Montreal, Canada.
+      year: 2021 - Now
       description:
-        - Description 1.
-        - Description 2.
+        - Work on sample efficiency in NLP and multilignual retrieval.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Research Intern
+      institution: Huawei Noah's Ark Lab, Montreal, Canada.
+      year: 2020 - 2021
       description:
+        - Worked on sample efficiency and data augmentation in NLP.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Academic Service
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - title: Reviewing for Conferences
       items:
-        - Description 1.
-        - Description 2.
+        - ACL Rolling Review
+        - EMNLP 2022 (<u>Information Retrieval and Text Mining</u> & <u>Unsupervised and Weakly-Supervised Methods in NLP</u> Tracks)
+        - EMNLP 2021 (<u>Information Retrieval and Text Mining</u> & <u>Question Answering</u> Tracks)
+        - ACL-IJCNLP 2021 (<u>Question Answering</u> Track)
+        - NAACL 2021 (<u>Question Answering</u> Track)
+        - EACL 2021 (<u>Green and Sustainable NLP</u> Track)
+        - EMNLP 2020 (<u>Question Answering</u> Track)
+        - ACL 2020 (<u>Question Answering</u> Track)
+    - title: Reviewing for Workshops
+      items:
+        - Efficient Natural Language and Speech Processing (ENSLP) at NeurIPS 2022 [<a href="https://neurips2022-enlsp.github.io/">link</a>]
+        - Efficient Natural Language and Speech Processing (ENSLP) at NeurIPS 2021 [<a href="https://neurips2021-nlp.github.io/">link</a>]
+        - SustaiNLP at EMNLP 2021 [<a href="https://sites.google.com/view/sustainlp2021/home">link</a>]
+        - Student Research Workshop (SRW) at NAACL 2021 [<a href="https://naacl2021-srw.github.io/">link</a>]
+        - Student Research Workshop (SRW) at EACL 2021 [<a href="https://sites.google.com/view/eaclsrw2021/home">link</a>]
+        - SustaiNLP at EMNLP 2020 [<a href="https://sites.google.com/view/sustainlp2020">link</a>]
+        - Student Research Workshop (SRW) at ACL 2020 [<a href="https://sites.google.com/view/acl20studentresearchworkshop/">link</a>]
+        - Student Research Workshop (SRW) at ACL 2019 [<a href="https://sites.google.com/view/acl19studentresearchworkshop/">link</a>]
+#
+#
+#- title: Academic Interests
+#  type: nested_list
+#  contents:
+#    - title: Topic 1.
+#      items:
+#        - Description 1.
+#        - Description 2.
+#    - title: Topic 2.
+#      items:
+#        - Description 1.
+#        - Description 2.
 
 - title: Other Interests
-  type: list
+  type: nested_list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Sports
+      items:
+      - <i class="fas fa-swimmer"></i> Member of University of Alberta Swim Club <a href="https://www.instagram.com/ualbertaswimclub/"><i class="fab fa-instagram"></i></a> (2016-2022)
+      - <i class="fas fa-table-tennis"></i> (Tennis)
+      - <i class="fa fa-hiking"></i>
