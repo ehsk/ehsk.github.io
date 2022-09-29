@@ -21,6 +21,6 @@ My goal is to facilitate information access over massive unstructured materials 
 - Building scalable and robust retrieval systems that are suitable for deployment "in the wild",
 - Data-centric strategies to systematically improve data quality and to overcome bias in data.
 
-During my PhD, I was fortunate enough to collaborate with [Osmar Zaiane](http://cs.ualberta.ca/~zaiane/), and [Charles Clarke](https://plg.uwaterloo.ca/~claclark/).
-I also interned as a researcher at Huawei Noah's Ark Lab in Montreal and worked with [Peyman Passban](https://ca.linkedin.com/in/passban), [Mehdi Rezagholizadeh](https://ca.linkedin.com/in/mehdi-rezagholizadeh-61212346), and [Ali Ghodsi](https://uwaterloo.ca/statistics-and-actuarial-science/people-profiles/ali-ghodsi).
+During my PhD, I was fortunate enough to collaborate with [Charles Clarke](https://plg.uwaterloo.ca/~claclark/).
+I also interned as a researcher at Huawei Noah's Ark Lab in Montreal and worked with [Mehdi Rezagholizadeh](https://ca.linkedin.com/in/mehdi-rezagholizadeh-61212346), [Jimmy Lin](https://cs.uwaterloo.ca/~jimmylin/), [Peyman Passban](https://ca.linkedin.com/in/passban), and [Ali Ghodsi](https://uwaterloo.ca/statistics-and-actuarial-science/people-profiles/ali-ghodsi).
 Prior to PhD, I was working as a software engineer.
