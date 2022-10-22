@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD Candidate, <a href='https://cs.ualberta.ca'>University of Alberta</a>.
+subtitle: PhD, <a href='https://cs.ualberta.ca'>University of Alberta</a>.
 
 profile:
   align: right

@@ -56,14 +56,14 @@
     - title: Reviewing for Conferences
       items:
         - ACL Rolling Review
-        - EACL 2023 (<u>Green and Sustainable NLP</u> Track)
-        - EMNLP 2022 (<u>Information Retrieval and Text Mining</u> & <u>Unsupervised and Weakly-Supervised Methods in NLP</u> Tracks)
-        - EMNLP 2021 (<u>Information Retrieval and Text Mining</u> & <u>Question Answering</u> Tracks)
-        - ACL-IJCNLP 2021 (<u>Question Answering</u> Track)
-        - NAACL 2021 (<u>Question Answering</u> Track)
-        - EACL 2021 (<u>Green and Sustainable NLP</u> Track)
-        - EMNLP 2020 (<u>Question Answering</u> Track)
-        - ACL 2020 (<u>Question Answering</u> Track)
+        - EACL 2023 (<u>Ethical and Sustainable NLP</u>)
+        - EMNLP 2022 (<u>Information Retrieval and Text Mining</u> & <u>Unsupervised and Weakly-Supervised Methods in NLP</u>)
+        - EMNLP 2021 (<u>Information Retrieval and Text Mining</u> & <u>Question Answering</u>)
+        - ACL-IJCNLP 2021 (<u>Question Answering</u>)
+        - NAACL 2021 (<u>Question Answering</u>)
+        - EACL 2021 (<u>Green and Sustainable NLP</u>)
+        - EMNLP 2020 (<u>Question Answering</u>)
+        - ACL 2020 (<u>Question Answering</u>)
     - title: Reviewing for Workshops
       items:
         - Efficient Natural Language and Speech Processing (ENSLP) at NeurIPS 2022 [<a href="https://neurips2022-enlsp.github.io/">link</a>]
