@@ -30,25 +30,25 @@
 #      description:
 #        - <u>Thesis:</u> A Morphology-based Stemmer for the Persian language
 
-- title: Research Experience
+- title: Professional Experience
   type: time_table
   contents:
-    - title: Research Assistant
-      institution: Department of Computing Science, University of Alberta, Canada.
-      year: 2016 - 2022
-      description:
-        - Explore information retrieval models suitable for NLP tasks.
+    - title: Post-doctoral Fellow
+      institution: David R. Cheriton School of Computer Science, University of Waterloo, Canada.
+      year: 2023 - Now
+#      description:
+#        - Explore information retrieval models suitable for NLP tasks.
     - title: Associate Researcher (Part-time)
       institution: Huawei Noah's Ark Lab, Montreal, Canada.
-      year: 2021 - Now
-      description:
-        - Work on sample efficiency in NLP and multilignual retrieval.
+      year: 2021 - 2022
+#      description:
+#        - Work on sample efficiency in NLP and multilignual retrieval.
 
     - title: Research Intern
       institution: Huawei Noah's Ark Lab, Montreal, Canada.
       year: 2020 - 2021
-      description:
-        - Worked on sample efficiency and data augmentation in NLP.
+#      description:
+#        - Worked on sample efficiency and data augmentation in NLP.
 
 - title: Academic Service
   type: nested_list
@@ -56,6 +56,7 @@
     - title: Reviewing for Conferences
       items:
         - ACL Rolling Review
+        - ACL 2023 (<u>Question Answering</u>)
         - EACL 2023 (<u>Ethical and Sustainable NLP</u>)
         - EMNLP 2022 (<u>Information Retrieval and Text Mining</u> & <u>Unsupervised and Weakly-Supervised Methods in NLP</u>)
         - EMNLP 2021 (<u>Information Retrieval and Text Mining</u> & <u>Question Answering</u>)
