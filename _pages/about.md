@@ -21,7 +21,7 @@ My goal is to facilitate information access over massive unstructured materials 
 - Building scalable and robust retrieval systems that are suitable for deployment "in the wild",
 - Data-centric strategies to systematically improve data quality and to overcome bias in data.
 
-Previously, I earned a PhD at the University of Alberta, advised by [Davood Rafiei](https://cs.ualberta.ca/~drafiei/). 
+Previously, I completed my PhD at the University of Alberta, advised by [Davood Rafiei](https://cs.ualberta.ca/~drafiei/). 
 I was also fortunate enough to collaborate with [Charles Clarke](https://plg.uwaterloo.ca/~claclark/).
 I also interned as a researcher at Huawei Noah's Ark Lab in Montreal and worked with [Mehdi Rezagholizadeh](https://ca.linkedin.com/in/mehdi-rezagholizadeh-61212346), [Peyman Passban](https://ca.linkedin.com/in/passban), and [Ali Ghodsi](https://uwaterloo.ca/statistics-and-actuarial-science/people-profiles/ali-ghodsi).
 Prior to PhD, I was working as a software engineer.
