@@ -4,6 +4,19 @@
 @string{aps = {American Physical Society,}}
 
 
+@inproceedings{hagrid,
+  title={HAGRID: A Human-LLM Collaborative Dataset for Generative Information-Seeking with Attribution},
+  author={{Kamalloo}, Ehsan and Jafari, Aref and {Zhang}, Xinyu and {Thakur}, Nandan and {Lin}, Jimmy},
+  booktitle={arXiv},
+  month=jul,
+  year={2023},
+  url={https://arxiv.org/abs/2307.16883},
+  code={https://github.com/project-miracl/hagrid},
+  preview={HAGRID.png},
+  arxiv={2307.16883},
+  abstract={The rise of large language models (LLMs) had a transformative impact on search, ushering in a new era of search engines that are capable of generating search results in natural language text, imbued with citations for supporting sources. Building generative information-seeking models demands openly accessible datasets, which currently remain lacking. In this paper, we introduce a new dataset, HAGRID (Human-in-the-loop Attributable Generative Retrieval for Information-seeking Dataset) for building end-to-end generative information-seeking models that are capable of retrieving candidate quotes and generating attributed explanations. Unlike recent efforts that focus on human evaluation of black-box proprietary search engines, we built our dataset atop the English subset of MIRACL, a publicly available information retrieval dataset. HAGRID is constructed based on human and LLM collaboration. We first automatically collect attributed explanations that follow an in-context citation style using an LLM, i.e. GPT-3.5. Next, we ask human annotators to evaluate the LLM explanations based on two criteria: informativeness and attributability. HAGRID serves as a catalyst for the development of information-seeking models with better attribution capabilities.},
+}
+
 @inproceedings{beir,
   title={Resources for Brewing BEIR: Reproducible Reference Models and an Official Leaderboard},
   author={{Kamalloo}, Ehsan and {Thakur}, Nandan and {Lassance}, Carlos and {Ma}, Xueguang and {Yang}, Jheng-Hong and {Lin}, Jimmy},
@@ -12,19 +25,8 @@
   year={2023},
   url={https://arxiv.org/abs/2306.07471},
   arxiv={2306.07471},
+  preview={beir.png},
   abstract={BEIR is a benchmark dataset for zero-shot evaluation of information retrieval models across 18 different domain/task combinations. In recent years, we have witnessed the growing popularity of a representation learning approach to building retrieval models, typically using pretrained transformers in a supervised setting. This naturally begs the question: How effective are these models when presented with queries and documents that differ from the training data? Examples include searching in different domains (e.g., medical or legal text) and with different types of queries (e.g., keywords vs. well-formed questions). While BEIR was designed to answer these questions, our work addresses two shortcomings that prevent the benchmark from achieving its full potential: First, the sophistication of modern neural methods and the complexity of current software infrastructure create barriers to entry for newcomers. To this end, we provide reproducible reference implementations that cover the two main classes of approaches: learned dense and sparse models. Second, there does not exist a single authoritative nexus for reporting the effectiveness of different models on BEIR, which has led to difficulty in comparing different methods. To remedy this, we present an official self-service BEIR leaderboard that provides fair and consistent comparisons of retrieval models. By addressing both shortcomings, our work facilitates future explorations in a range of interesting research questions that BEIR enables.},
-}
-
-@inproceedings{embedAPI,
-  title={Evaluating Embedding APIs for Information Retrieval},
-  author={{Kamalloo}, Ehsan and {Zhang}, Xinyu and {Ogundepo}, Odunayo and {Thakur}, Nandan and {Alfonso-Hermelo}, David and {Rezagholizadeh}, Mehdi and {Lin}, Jimmy},
-  booktitle={ACL Industry Track},
-  month=jul,
-  year={2023},
-  location = {Toronto, Canada},
-  url={https://arxiv.org/abs/2305.06300},
-  arxiv={2305.06300},
-  abstract={The ever-increasing size of language models curtails their widespread access to the community, thereby galvanizing many companies and startups into offering access to large language models through APIs. One particular API, suitable for dense retrieval, is the semantic embedding API that builds vector representations of a given text. With a growing number of APIs at our disposal, in this paper, our goal is to analyze semantic embedding APIs in realistic retrieval scenarios in order to assist practitioners and researchers in finding suitable services according to their needs. Specifically, we wish to investigate the capabilities of existing APIs on domain generalization and multilingual retrieval. For this purpose, we evaluate the embedding APIs on two standard benchmarks, BEIR, and MIRACL. We find that re-ranking BM25 results using the APIs is a budget-friendly approach and is most effective on English, in contrast to the standard practice, i.e., employing them as first-stage retrievers. For non-English retrieval, re-ranking still improves the results, but a hybrid model with BM25 works best albeit at a higher cost. We hope our work lays the groundwork for thoroughly evaluating APIs that are critical in search and more broadly, in information retrieval.},
 }
 
 @inproceedings{evalOpenQA,
@@ -33,12 +35,26 @@
   month = jul,
   year = {2023},
   code={https://github.com/ehsk/OpenQA-eval},
-  url={https://arxiv.org/abs/2305.06984},
+  url={https://aclanthology.org/2023.acl-long.307/},
   arxiv={2305.06984},
   preview={acl23.jpg},
   booktitle = {ACL (oral)},
   location = {Toronto, Canada},
   abstract={Lexical matching remains the de facto evaluation method for open-domain question answering (QA). Unfortunately, lexical matching fails completely when a plausible candidate answer does not appear in the list of gold answers, which is increasingly the case as we shift from extractive to generative models. The recent success of large language models (LLMs) for QA aggravates lexical matching failures since candidate answers become longer, thereby making matching with the gold answers even more challenging. Without accurate evaluation, the true progress in open-domain QA remains unknown. In this paper, we conduct a thorough analysis of various open-domain QA models, including LLMs, by manually evaluating their answers on a subset of NQ-open, a popular benchmark. Our assessments reveal that while the true performance of all models is significantly underestimated, the performance of the InstructGPT (zero-shot) LLM increases by nearly +60%, making it on par with existing top models, and the InstructGPT (few-shot) model actually achieves a new state-of-the-art on NQ-open. We also find that more than 50% of lexical matching failures are attributed to semantically equivalent answers. We further demonstrate that regex matching ranks QA models consistent with human judgments, although still suffering from unnecessary strictness. Finally, we demonstrate that automated evaluation models are a reasonable surrogate for lexical matching in some circumstances, but not for long-form answers generated by LLMs. The automated models struggle in detecting hallucinations in LLM answers and are thus unable to evaluate LLMs. At this time, there appears to be no substitute for human evaluation.},
+}
+
+@inproceedings{embedAPI,
+  title={Evaluating Embedding APIs for Information Retrieval},
+  author={{Kamalloo}, Ehsan and {Zhang}, Xinyu and {Ogundepo}, Odunayo and {Thakur}, Nandan and {Alfonso-Hermelo}, David and {Rezagholizadeh}, Mehdi and {Lin}, Jimmy},
+  booktitle={ACL (Industry Track)},
+  month=jul,
+  year={2023},
+  location = {Toronto, Canada},
+  url={https://aclanthology.org/2023.acl-industry.50/},
+  preview={acl23-EmbeddingAPIs.png},
+  arxiv={2305.06300},
+  pages = "518--526",
+  abstract={The ever-increasing size of language models curtails their widespread access to the community, thereby galvanizing many companies and startups into offering access to large language models through APIs. One particular API, suitable for dense retrieval, is the semantic embedding API that builds vector representations of a given text. With a growing number of APIs at our disposal, in this paper, our goal is to analyze semantic embedding APIs in realistic retrieval scenarios in order to assist practitioners and researchers in finding suitable services according to their needs. Specifically, we wish to investigate the capabilities of existing APIs on domain generalization and multilingual retrieval. For this purpose, we evaluate the embedding APIs on two standard benchmarks, BEIR, and MIRACL. We find that re-ranking BM25 results using the APIs is a budget-friendly approach and is most effective on English, in contrast to the standard practice, i.e., employing them as first-stage retrievers. For non-English retrieval, re-ranking still improves the results, but a hybrid model with BM25 works best albeit at a higher cost. We hope our work lays the groundwork for thoroughly evaluating APIs that are critical in search and more broadly, in information retrieval.},
 }
 
 @inproceedings{docreasoning,
@@ -76,7 +92,7 @@
     location = {Atlanta, GA, USA},
     url = {https://doi.org/10.1145/3511808.3557673},
     doi = {10.1145/3511808.3557673},
-    series = {CIKM '22},
+    series = {CIKM'22},
     code={https://github.com/makbn/robem},
 }
 
@@ -92,8 +108,6 @@
     abstract = {There is essential information in the underlying structure of words and phrases in natural language questions, and this structure has been extensively studied. In this paper, we study one particular structure, referred to as frozen phrases, that is highly expected to transfer as a whole from questions to answer passages. Frozen phrases, if detected, can be helpful in open-domain Question Answering (QA) where identifying the localized context of a given input question is crucial. An interesting question is if frozen phrases can be accurately detected. We cast the problem as a sequence-labeling task and create synthetic data from existing QA datasets to train a model. We further plug this model into a sparse retriever that is made aware of the detected phrases. Our experiments reveal that detecting frozen phrases whose presence in answer documents are highly plausible yields significant improvements in retrievals as well as in the end-to-end accuracy of open-domain QA models.},
     booktitle = {SIGIR},
     pages = {1990–1996},
-    numpages = {7},
-    keywords = {open-domain question answering, sparse retriever, information retrieval, question paraphrasing, frozen phrases},
     location = {Madrid, Spain},
     code={https://github.com/Aashena/Frozen-Phrases},
 }
@@ -203,4 +217,5 @@
     keywords = {spatial hierarchies, toponym resolution, unsupervised disambiguation, context-bound hypotheses, geolocation extraction},
     location = {Lyon, France},
     code={https://github.com/ehsk/CHF-TopoResolver},
+    preview={www2018.png},
 }
