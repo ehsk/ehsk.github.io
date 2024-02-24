@@ -1,0 +1,33 @@
+{% if site.footer_fixed %}
+  <footer class="fixed-bottom" role="contentinfo">
+    <div class="container mt-0">
+      {% comment %}&copy; Copyright {{ site.time | date: '%Y' }}{% endcomment %}
+      {% comment %}{{ site.first_name }}{% endcomment %}
+      {% comment %}{{ site.middle_name }}{% endcomment %}
+      {% comment %}{{ site.last_name }}.{% endcomment %}
+      {{ site.footer_text }}
+      {% if site.impressum_path %}
+        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+      {% endif %}
+      {% if site.last_updated %}
+        <b><small>Last updated: {{ 'now' | date: '%B %d, %Y' }}.</small></b>
+      {% endif %}
+    </div>
+  </footer>
+{% else %}
+  <footer class="sticky-bottom mt-5" role="contentinfo">
+    <div class="container">
+      {% comment %}&copy; Copyright {{ site.time | date: '%Y' }}{% endcomment %}
+      {% comment %}{{ site.first_name }}{% endcomment %}
+      {% comment %}{{ site.middle_name }}{% endcomment %}
+      {% comment %}{{ site.last_name }}.{% endcomment %}
+      {{ site.footer_text }}
+      {% if site.impressum_path %}
+        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+      {% endif %}
+      {% if site.last_updated %}
+        <b><small>Last updated: {{ 'now' | date: '%B %d, %Y' }}.</small></b>
+      {% endif %}
+    </div>
+  </footer>
+{% endif %}

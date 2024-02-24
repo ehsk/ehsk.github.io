@@ -3,8 +3,29 @@
 #  contents:
 #    - name: Full Name
 #      value: Ehsan Kamalloo
-#    - name: Languages
-#      value: English, Persian
+
+- title: Professional Experience
+  type: time_table
+  contents:
+    - title: Research Scientist
+      institution: ServiceNow Research, Canada.
+      year: 2024 - Now
+    - title: Post-doctoral Fellow
+      institution: David R. Cheriton School of Computer Science, University of Waterloo, Canada.
+      year: 2023 - 2024
+    #      description:
+    #        - Explore information retrieval models suitable for NLP tasks.
+    - title: Associate Researcher (Part-time)
+      institution: Huawei Noah's Ark Lab, Montreal, Canada.
+      year: 2021 - 2022
+    #      description:
+    #        - Work on sample efficiency in NLP and multilignual retrieval.
+
+    - title: Research Intern
+      institution: Huawei Noah's Ark Lab, Montreal, Canada.
+      year: 2020 - 2021
+#      description:
+#        - Worked on sample efficiency and data augmentation in NLP.
 
 - title: Education
   type: time_table
@@ -30,34 +51,19 @@
 #      description:
 #        - <u>Thesis:</u> A Morphology-based Stemmer for the Persian language
 
-- title: Professional Experience
-  type: time_table
-  contents:
-    - title: Post-doctoral Fellow
-      institution: David R. Cheriton School of Computer Science, University of Waterloo, Canada.
-      year: 2023 - Now
-#      description:
-#        - Explore information retrieval models suitable for NLP tasks.
-    - title: Associate Researcher (Part-time)
-      institution: Huawei Noah's Ark Lab, Montreal, Canada.
-      year: 2021 - 2022
-#      description:
-#        - Work on sample efficiency in NLP and multilignual retrieval.
-
-    - title: Research Intern
-      institution: Huawei Noah's Ark Lab, Montreal, Canada.
-      year: 2020 - 2021
-#      description:
-#        - Worked on sample efficiency and data augmentation in NLP.
 
 - title: Academic Service
   type: nested_list
   contents:
+    - title: Area Chair
+      items:
+        - ACL Rolling Review (Dec 2023, Feb 2024)
     - title: Reviewing for Conferences
       items:
         - ACL Rolling Review
-        - EMNLP 2023
-        - CIKM 2023
+        - <a href="https://colmweb.org/">COLM 2024</a>
+        - <a href="https://2023.emnlp.org/">EMNLP 2023</a>
+        - <a href="https://cikm2023.org/">CIKM 2023</a>
         - ACL 2023 (<u>Question Answering</u>)
         - EACL 2023 (<u>Ethical and Sustainable NLP</u>)
         - EMNLP 2022 (<u>Information Retrieval and Text Mining</u> & <u>Unsupervised and Weakly-Supervised Methods in NLP</u>)
