@@ -26,5 +26,5 @@ My goal is to facilitate information access over massive unstructured materials 
 Prior to this, I was a Post-doctoral Fellow at the David R. Cheriton School of Computer Science, University of Waterloo, hosted by [Jimmy Lin](https://cs.uwaterloo.ca/~jimmylin/).
 I completed my PhD at the University of Alberta, advised by [Davood Rafiei](https://cs.ualberta.ca/~drafiei/).
 I was also fortunate enough to collaborate with [Charles Clarke](https://plg.uwaterloo.ca/~claclark/) and [Siva Reddy](https://sivareddy.in/).
-I also interned as a researcher at Huawei Noah's Ark Lab in Montreal and worked with [Mehdi Rezagholizadeh](https://ca.linkedin.com/in/mehdi-rezagholizadeh-61212346) and [Ali Ghodsi](https://uwaterloo.ca/statistics-and-actuarial-science/people-profiles/ali-ghodsi).
+I also interned as a researcher at Huawei Noah's Ark Lab in Montreal and worked with [Mehdi Rezagholizadeh](https://ca.linkedin.com/in/mehdi-rezagholizadeh-61212346).
 Before PhD, I was working as a software engineer.

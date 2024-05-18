@@ -4,6 +4,60 @@
 @string{aps = {American Physical Society,}}
 
 
+@inproceedings{LLMsPatchHoles,
+  title={LLMs Can Patch Up Missing Relevance Judgments in Evaluation},
+  author={{Upadhyay}, Shivani and {Kamalloo}, Ehsan and {Lin}, Jimmy},
+  booktitle={arXiv},
+  month=may,
+  year={2024},
+  url={https://arxiv.org/abs/2405.04727},
+  preview={fill_holes.png},
+  arxiv={2405.04727},
+  abstract={Unjudged documents or holes in information retrieval benchmarks are considered non-relevant in evaluation, yielding no gains in measuring effectiveness. However, these missing judgments may inadvertently introduce biases into the evaluation as their prevalence for a retrieval model is heavily contingent on the pooling process. Thus, filling holes becomes crucial in ensuring reliable and accurate evaluation. Collecting human judgment for all documents is cumbersome and impractical. In this paper, we aim at leveraging large language models (LLMs) to automatically label unjudged documents. Our goal is to instruct an LLM using detailed instructions to assign fine-grained relevance judgments to holes. To this end, we systematically simulate scenarios with varying degrees of holes by randomly dropping relevant documents from the relevance judgment in TREC DL tracks. Our experiments reveal a strong correlation between our LLM-based method and ground-truth relevance judgments. Based on our simulation experiments conducted on three TREC DL datasets, in the extreme scenario of retaining only 10% of judgments, our method achieves a Kendall tau correlation of 0.87 and 0.92 on an average for Vicuña-7B and GPT-3.5-Turbo respectively.},
+}
+
+@inproceedings{evalQADemo,
+  title={Towards Robust QA Evaluation via Open LLMs},
+  author={{Kamalloo}, Ehsan and {Upadhyay}, Shivani and {Lin}, Jimmy},
+  booktitle = {SIGIR (demo)},
+  location = {Washington DC, US},
+  month=jul,
+  year={2024},
+  url = {https://doi.org/10.1145/3626772.3657675},
+  code={https://github.com/castorini/qa-eval},
+  doi = {10.1145/3626772.3657675},
+  pdf={SIGIR_2024__QA_Evaluation_Demo.pdf},
+  preview={sigir24__QA_Evaluation_Demo.jpg},
+  abstract={Instruction-tuned large language models (LLMs) have been shown to be viable surrogates for the widely used, albeit overly rigid, lexical matching metrics in evaluating question answering (QA) models. However, these LLM-based evaluation methods are invariably based on proprietary LLMs. Despite their remarkable capabilities, proprietary LLMs are costly and subject to internal changes that can affect their output, which inhibits the reproducibility of their results and limits the widespread adoption of LLM-based evaluation. In this demo, we aim to use publicly available LLMs for standardizing LLM-based QA evaluation. However, open-source LLMs lag behind their proprietary counterparts. We overcome this gap by adopting chain-of-thought prompting with self-consistency to build a reliable evaluation framework. We demonstrate that our evaluation framework, based on 750M and 7B open LLMs, correlates competitively with human judgment, compared to most recent GPT-3 and GPT-4 models. Our codebase and data are available at https://github.com/castorini/qa-eval.},
+}
+
+@inproceedings{touche2020,
+  title={Systematic Evaluation of Neural Retrieval Models on the Touché 2020 Argument Retrieval Subset of BEIR},
+  author={{Thakur}, Nandan and {Bonifacio}, Luiz and {Fr\"obe}, Maik and {Bondarenko}, Alexander and {Kamalloo}, Ehsan and {Potthast}, Martin and {Hagen}, Matthias and {Lin}, Jimmy},
+  booktitle = {SIGIR (resource)},
+  location = {Washington DC, US},
+  month=jul,
+  year={2024},
+  url = {https://doi.org/10.1145/3626772.3657861},
+  code={https://github.com/castorini/touche-error-analysis},
+  doi = {10.1145/3626772.3657861},
+  preview={sigir24_touche.jpg},
+  abstract={The zero-shot effectiveness of neural retrieval models is often evaluated on the BEIR benchmark---a combination of different IR evaluation datasets. Interestingly, previous studies found that particularly on the BEIR subset Touché 2020, an argument retrieval task, neural retrieval models are considerably less effective than BM25. Still, so far, no further investigation has been conducted on what makes argument retrieval so ``special''. To more deeply analyze the respective potential limits of neural retrieval models, we run a reproducibility study on the Touché 2020 data. In our study, we focus on two experiments: (i) a black-box evaluation (i.e., no model retraining), incorporating a theoretical exploration using retrieval axioms, and (ii) a data denoising evaluation involving post-hoc relevance judgments. Our black-box evaluation reveals an inherent bias of neural models towards retrieving short passages from the Touché 2020 data, and we also find that quite a few of the neural models' results are unjudged in the Touché 2020 data. As many of the short Touché passages are not argumentative and thus non-relevant per se, and as the missing judgments complicate fair comparison, we denoise the Touché 2020 data by excluding very short passages (less than 20 words) and by augmenting the unjudged data with post-hoc judgments following the Touché guidelines. On the denoised data, the effectiveness of the neural models improves by up to 0.52 in nDCG@10, but BM25 is still more effective. Our code and the augmented Touché 2020 dataset are available at https://github.com/castorini/touche-error-analysis.},
+}
+
+@inproceedings{nomiracl,
+  title={{NoMIRACL}: Knowing When You Don't Know for Robust Multilingual Retrieval-Augmented Generation},
+  author={{Thakur}, Nandan and {Bonifacio}, Luiz and {Zhang}, Xinyu and {Ogundepo}, Odunayo and {Kamalloo}, Ehsan and {Alfonso-Hermelo}, David and {Li}, Xiaoguang and {Liu}, Qun and {Chen}, Boxing and {Rezagholizadeh}, Mehdi and {Lin}, Jimmy},
+  booktitle={arXiv},
+  month=dec,
+  year={2023},
+  url={https://arxiv.org/abs/2312.11361},
+  arxiv={2210.09984},
+  code={https://github.com/project-miracl/nomiracl},
+  preview={NoMIRACL.jpg},
+  abstract={Retrieval-augmented generation (RAG) grounds large language model (LLM) output by leveraging external knowledge sources to reduce factual hallucinations. However, prior works lack a comprehensive evaluation of different language families, making it challenging to evaluate LLM robustness against errors in external retrieved knowledge. To overcome this, we establish NoMIRACL, a human-annotated dataset for evaluating LLM robustness in RAG across 18 typologically diverse languages. NoMIRACL includes both a non-relevant and a relevant subset. Queries in the non-relevant subset contain passages judged as non-relevant, whereas queries in the relevant subset include at least a single judged relevant passage. We measure LLM robustness using two metrics: (i) hallucination rate, measuring model tendency to hallucinate an answer, when the answer is not present in passages in the non-relevant subset, and (ii) error rate, measuring model inaccuracy to recognize relevant passages in the relevant subset. In our work, we measure robustness for a wide variety of multilingual-focused LLMs and observe that most of the models struggle to balance the two capacities. Models such as LLAMA-2, Orca-2, and FLAN-T5 observe more than an 88% hallucination rate on the non-relevant subset, whereas, Mistral overall hallucinates less, but can achieve up to a 74.9% error rate on the relevant subset. Overall, GPT-4 is observed to provide the best tradeoff on both subsets, highlighting future work necessary to improve LLM robustness.},
+}
+
 @inproceedings{hagrid,
   title={HAGRID: A Human-LLM Collaborative Dataset for Generative Information-Seeking with Attribution},
   author={{Kamalloo}, Ehsan and Jafari, Aref and {Zhang}, Xinyu and {Thakur}, Nandan and {Lin}, Jimmy},
@@ -18,15 +72,18 @@
 }
 
 @inproceedings{beir,
-  title={Resources for Brewing BEIR: Reproducible Reference Models and an Official Leaderboard},
+  title={Resources for Brewing BEIR: Reproducible Reference Models and Statistical Analyses},
   author={{Kamalloo}, Ehsan and {Thakur}, Nandan and {Lassance}, Carlos and {Ma}, Xueguang and {Yang}, Jheng-Hong and {Lin}, Jimmy},
-  booktitle={arXiv},
-  month=jun,
-  year={2023},
+  booktitle = {SIGIR (resource)},
+  location = {Washington DC, US},
+  month=jul,
+  year={2024},
   url={https://arxiv.org/abs/2306.07471},
   arxiv={2306.07471},
-  preview={beir.png},
-  abstract={BEIR is a benchmark dataset for zero-shot evaluation of information retrieval models across 18 different domain/task combinations. In recent years, we have witnessed the growing popularity of a representation learning approach to building retrieval models, typically using pretrained transformers in a supervised setting. This naturally begs the question: How effective are these models when presented with queries and documents that differ from the training data? Examples include searching in different domains (e.g., medical or legal text) and with different types of queries (e.g., keywords vs. well-formed questions). While BEIR was designed to answer these questions, our work addresses two shortcomings that prevent the benchmark from achieving its full potential: First, the sophistication of modern neural methods and the complexity of current software infrastructure create barriers to entry for newcomers. To this end, we provide reproducible reference implementations that cover the two main classes of approaches: learned dense and sparse models. Second, there does not exist a single authoritative nexus for reporting the effectiveness of different models on BEIR, which has led to difficulty in comparing different methods. To remedy this, we present an official self-service BEIR leaderboard that provides fair and consistent comparisons of retrieval models. By addressing both shortcomings, our work facilitates future explorations in a range of interesting research questions that BEIR enables.},
+  doi = {10.1145/3626772.3657862},
+  pdf={SIGIR_2024__BEIR_Resource.pdf},
+  preview={beir_radar-ndcg.jpg},
+  abstract={BEIR is a benchmark dataset originally designed for zero-shot evaluation of retrieval models across 18 different domain/task combinations. In recent years, we have witnessed the growing popularity of models based on representation learning, which naturally begs the question: How effective are these models when presented with queries and documents that differ from the training data? While BEIR was designed to answer this question, our work addresses two shortcomings that prevent the benchmark from achieving its full potential: First, the sophistication of modern neural methods and the complexity of current software infrastructure create barriers to entry for newcomers. To this end, we provide reproducible reference implementations that cover learned dense and sparse models. Second, comparisons on BEIR are performed by reducing scores from heterogeneous datasets into a single average that is difficult to interpret. To remedy this, we present meta-analyses focusing on effect sizes across datasets that are able to accurately quantify model differences. By addressing both shortcomings, our work facilitates future explorations in a range of interesting research questions.},
 }
 
 @inproceedings{evalOpenQA,
@@ -72,12 +129,12 @@
 }
 
 @article{miracl,
-  title={Making a {MIRACL}: Multilingual Information Retrieval Across a Continuum of Languages},
+  title={{MIRACL}: Multilingual Information Retrieval Across a Continuum of Languages},
   author={{Zhang}, Xinyu and {Thakur}, Nandan and {Ogundepo}, Odunayo and {Kamalloo}, Ehsan and {Alfonso-Hermelo}, David and {Li}, Xiaoguang and {Liu}, Qun and {Rezagholizadeh}, Mehdi and {Lin}, Jimmy},
   journal={TACL},
   month=oct,
   year={2022},
-  url={https://arxiv.org/abs/2210.09984},
+  url={https://aclanthology.org/2023.tacl-1.63/},
   arxiv={2210.09984},
   website={http://miracl.ai/},
   preview={miracl.png},
