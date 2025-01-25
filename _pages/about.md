@@ -16,7 +16,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 My name is Ehsan (pronounced /eh☀️/ or /ih☀️/, or even /e☀️/).
-I am a Research Scientist in the Conversational Assistant team at [ServiceNow Resaerch](https://www.servicenow.com/research/).
+I am a Research Scientist in the Conversational Assistant team at [ServiceNow Research](https://www.servicenow.com/research/).
 
 I am broadly interested in building intelligent autonomous systems that are capable of complex reasoning ("[TapeAgents framework](https://github.com/ServiceNow/TapeAgents/)").
 My research focused on robust evaluation ("[QA evaluation](https://aclanthology.org/2023.acl-long.307/)" at ACL'23 and SIGIR'24, "[NoMIRACL](https://aclanthology.org/2024.findings-emnlp.730/)" at EMNLP'24, "[Touché-2020](https://arxiv.org/abs/2407.07790)" at SIGIR'24 and "[MIRACL](http://miracl.ai/)" at TACL'23) 
