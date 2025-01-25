@@ -1,4 +1,1 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://ehsk.github.io/sitemap.xml
+User-agent: * Disallow: Sitemap: https://ehsk.github.io/sitemap.xml
