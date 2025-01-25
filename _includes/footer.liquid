@@ -16,6 +16,10 @@
   </footer>
 {% else %}
   <footer class="sticky-bottom mt-5" role="contentinfo">
+    {% if site.newsletter.enabled %}
+      {% include newsletter.liquid %}
+    {% endif %}
+
     <div class="container">
       {% comment %}&copy; Copyright {{ site.time | date: '%Y' }}{% endcomment %}
       {% comment %}{{ site.first_name }}{% endcomment %}

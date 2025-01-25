@@ -15,15 +15,15 @@
       year: 2023 - 2024
     #      description:
     #        - Explore information retrieval models suitable for NLP tasks.
-    - title: Associate Researcher (Part-time)
+    - title: Researcher (Part-time)
       institution: Huawei Noah's Ark Lab, Montreal, Canada.
       year: 2021 - 2022
     #      description:
     #        - Work on sample efficiency in NLP and multilignual retrieval.
 
-    - title: Research Intern
-      institution: Huawei Noah's Ark Lab, Montreal, Canada.
-      year: 2020 - 2021
+#    - title: Research Intern
+#      institution: Huawei Noah's Ark Lab, Montreal, Canada.
+#      year: 2020 - 2021
 #      description:
 #        - Worked on sample efficiency and data augmentation in NLP.
 
@@ -34,7 +34,7 @@
       institution: University of Alberta, Edmonton, Canada
       year: 2022
       description:
-        - <u>Thesis:</u> Robust Knowledge Acquisition in Answering Information-seeking Questions.
+        - <u>Thesis:</u> Robust Knowledge Acquisition in Answering Information-seeking Questions. (<a href="https://era.library.ualberta.ca/items/7c56859b-ba57-40fc-8af3-6a6ab168e1e5">link</a>)
 #        - Description 2.
 #        - title: Robust Knowledge Acquisition in Answering Information-seeking Questions.
 #          contents:
@@ -77,6 +77,8 @@
       items:
         - Student Research Workshop (SRW) at ACL 2023 [<a href="https://acl2023-srw.github.io/">link</a>]
         - Third DialDoc Workshop at ACL 2023 [<a href="https://doc2dial.github.io/workshop2023/">link</a>]
+        - Efficient Natural Language and Speech Processing (ENSLP) at NeurIPS 2024 [<a href="https://neurips2024-enlsp.github.io/">link</a>]
+        - Efficient Natural Language and Speech Processing (ENSLP) at NeurIPS 2023 [<a href="https://neurips2023-enlsp.github.io/">link</a>]
         - Efficient Natural Language and Speech Processing (ENSLP) at NeurIPS 2022 [<a href="https://neurips2022-enlsp.github.io/">link</a>]
         - Efficient Natural Language and Speech Processing (ENSLP) at NeurIPS 2021 [<a href="https://neurips2021-nlp.github.io/">link</a>]
         - SustaiNLP at EMNLP 2021 [<a href="https://sites.google.com/view/sustainlp2021/home">link</a>]
@@ -99,11 +101,11 @@
 #        - Description 1.
 #        - Description 2.
 
-- title: Other Interests
-  type: nested_list
-  contents:
-    - title: Sports
-      items:
-      - 🏊 Member of University of Alberta Swim Club <a href="https://www.instagram.com/ualbertaswimclub/"><i class="fab fa-instagram"></i></a> (2016-2022)
-      - 🎾
+#- title: Other Interests
+#  type: nested_list
+#  contents:
+#    - title: Sports
+#      items:
+#      - 🏊 Member of University of Alberta Swim Club <a href="https://www.instagram.com/ualbertaswimclub/"><i class="fab fa-instagram"></i></a> (2016-2022)
+#      - 🎾
 
