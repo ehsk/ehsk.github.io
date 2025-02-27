@@ -55,13 +55,18 @@
 - title: Academic Service
   type: nested_list
   contents:
+    - title: Organizer
+      items:
+        - First Workshop for Research on Agent Language Models (REALM) at ACL 2025 [<a href="https://realm-workshop.github.io/">link</a>]
     - title: Area Chair
       items:
-        - ACL Rolling Review (Dec 2023, Feb 2024)
-    - title: Reviewing for Conferences
+        - ACL Rolling Review (Dec 2023, Feb 2024, Feb 2025)
+    - title: Reviewer for Conferences
       items:
         - ACL Rolling Review
-        - <a href="https://colmweb.org/">COLM 2024</a>
+        - <a href="https://colmweb.org/">COLM 2025</a>
+        - <a href="https://sigir2025.dei.unipd.it/">SIGIR 2025</a> (Resource & Reproducibility Track)
+        - <a href="https://2024.colmweb.org/">COLM 2024</a>
         - <a href="https://2023.emnlp.org/">EMNLP 2023</a>
         - <a href="https://cikm2023.org/">CIKM 2023</a>
         - ACL 2023 (<u>Question Answering</u>)
@@ -73,7 +78,7 @@
         - EACL 2021 (<u>Green and Sustainable NLP</u>)
         - EMNLP 2020 (<u>Question Answering</u>)
         - ACL 2020 (<u>Question Answering</u>)
-    - title: Reviewing for Workshops
+    - title: Reviewer for Workshops
       items:
         - Student Research Workshop (SRW) at ACL 2023 [<a href="https://acl2023-srw.github.io/">link</a>]
         - Third DialDoc Workshop at ACL 2023 [<a href="https://doc2dial.github.io/workshop2023/">link</a>]
