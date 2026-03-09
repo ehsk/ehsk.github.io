@@ -4,6 +4,6 @@ date: 2025-01-20
 inline: true
 ---
 
-The [REALM](https://realm-workshop.github.io/) Call for Paper is out. Submissions are due **March 31, 2025**. 
-<a href="https://x.com/ehsk0/status/1882199565069398111"><i class="fa-brands fa-twitter"></i></a>
+[REALM](https://realm-workshop.github.io/)'s Call for Paper is out. Submissions are due <s>March 31, 2025</s> **April 02, 2025**. 
+<a href="https://x.com/ehsk0/status/1882199565069398111"><i class="fa-brands fa-x-twitter"></i></a>
 <a href="https://bsky.app/profile/ehsk0.bsky.social/post/3lgg3webg722m"><i class="fa-brands fa-bluesky"></i></a>
