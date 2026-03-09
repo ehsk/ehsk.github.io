@@ -7,17 +7,17 @@
 - title: Professional Experience
   type: time_table
   contents:
-    - title: Research Scientist
-      institution: ServiceNow Research, Canada.
+    - title: Senior Research Scientist
+      institution: ServiceNow AI Research, Canada.
       year: 2024 - Now
     - title: Post-doctoral Fellow
       institution: David R. Cheriton School of Computer Science, University of Waterloo, Canada.
       year: 2023 - 2024
     #      description:
     #        - Explore information retrieval models suitable for NLP tasks.
-    - title: Researcher (Part-time)
-      institution: Huawei Noah's Ark Lab, Montreal, Canada.
-      year: 2021 - 2022
+    # - title: Researcher (Part-time)
+    #   institution: Huawei Noah's Ark Lab, Montreal, Canada.
+    #   year: 2021 - 2022
     #      description:
     #        - Work on sample efficiency in NLP and multilignual retrieval.
 

@@ -16,14 +16,19 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 My name is Ehsan (pronounced /eh☀️/ or /ih☀️/, or even /e☀️/).
-I am a Research Scientist in the Conversational Assistant team at [ServiceNow Research](https://www.servicenow.com/research/).
+I am a Senior Research Scientist in the Frontier AI Research team at [ServiceNow AI Research](https://www.servicenow.com/research/).
 
-I am broadly interested in building intelligent autonomous systems that are capable of complex reasoning ("[TapeAgents](https://github.com/ServiceNow/TapeAgents/)").
-My research focused on robust evaluation ("[LLM-as-a-judge for QA](https://aclanthology.org/2023.acl-long.307/)" at ACL'23 and SIGIR'24, "[NoMIRACL](https://aclanthology.org/2024.findings-emnlp.730/)" at EMNLP'24, "[Touché-2020](https://arxiv.org/abs/2407.07790)" at SIGIR'24 and "[MIRACL](http://miracl.ai/)" at TACL'23) 
-and data-efficient training methods for distilling a small model from large models ("[kNN-KD](https://aclanthology.org/2021.findings-acl.309/)" at ACL'21 and ACL'22) and training language models.
+I am broadly interested in building intelligent autonomous systems that are capable of complex reasoning ([PipelineRL](https://github.com/ServiceNow/PipelineRL/) and [TapeAgents](https://github.com/ServiceNow/TapeAgents/)).
+In particular, my work explores how learning and interaction can enable LLM agents to plan over long horizons, adapt to feedback, and operate effectively in multi-agent environments.
+Previously, my research focused on reliable evaluation (e.g. "[LLM-as-a-judge for QA](https://aclanthology.org/2023.acl-long.307/)" at ACL'23 and SIGIR'24, and "[MIRACL](http://miracl.ai/)" at TACL'23).
 
-Prior to this, I was a Post-doctoral Fellow at the David R. Cheriton School of Computer Science, University of Waterloo, hosted by [Jimmy Lin](https://cs.uwaterloo.ca/~jimmylin/).
+Prior to ServiceNow, I was a Post-doctoral Fellow at the David R. Cheriton School of Computer Science, University of Waterloo, hosted by [Jimmy Lin](https://cs.uwaterloo.ca/~jimmylin/).
 I completed my PhD at the University of Alberta, advised by [Davood Rafiei](https://cs.ualberta.ca/~drafiei/).
 I was also fortunate enough to collaborate with [Charles Clarke](https://plg.uwaterloo.ca/~claclark/) and [Siva Reddy](https://sivareddy.in/).
 I also interned as a researcher at Huawei Noah's Ark Lab in Montreal and worked with [Mehdi Rezagholizadeh](https://ca.linkedin.com/in/mehdi-rezagholizadeh-61212346).
 Before PhD, I was working as a software engineer.
+
+### Interns
+
+- [Yuxuan Li](https://liyuxuan.me/) (Jul 2025 - Mar 2026)
+- [Xiaoyin Chen](https://chenyn66.github.io/) (Oct 2024 - May 2025)
