@@ -4,6 +4,34 @@
 @string{aps = {American Physical Society,}}
 
 
+@inproceedings{PipelineRL,
+title={PipelineRL: Faster On-policy Reinforcement Learning for Long Sequence Generation},
+author={{Piché}, Alexandre and {Kamalloo}, Ehsan and {Pardinas}, Rafael and {Chen}, Xiaoyin and {Bahdanau}, Dzmitry},
+booktitle={TMLR},
+month=sep,
+year={2025},
+url={https://arxiv.org/abs/2509.19128},
+preview={pipelinerl.png},
+arxiv={2509.19128},
+code={https://github.com/ServiceNow/PipelineRL},
+abstract={Reinforcement Learning (RL) is increasingly utilized to enhance the reasoning capabilities of Large Language Models (LLMs). However, effectively scaling these RL methods presents significant challenges, primarily due to the difficulty in maintaining high AI accelerator utilization without generating stale, off-policy data that harms common RL algorithms. This paper introduces PipelineRL, an approach designed to achieve a superior trade-off between hardware efficiency and data on-policyness for LLM training. PipelineRL employs concurrent asynchronous data generation and model training, distinguished by the novel in-flight weight updates. This mechanism allows the LLM generation engine to receive updated model weights with minimal interruption during the generation of token sequences, thereby maximizing both the accelerator utilization and the freshness of training data. Experiments conducted on long-form reasoning tasks using 128 H100 GPUs demonstrate that PipelineRL achieves approximately \sim 2x faster learning compared to conventional RL baselines while maintaining highly on-policy training data. A scalable and modular open-source implementation of PipelineRL is also released as a key contribution.},
+}
+
+
+@inproceedings{SEC,
+title={Self-Evolving Curriculum for LLM Reasoning},
+author={{Chen}, Xiaoyin and {Lu}, Jiarui and {Kim}, Minsu and {Zhang}, Dinghuai and {Tang}, Jian and {Piché}, Alexandre and {Gontier}, Nicolas and {Bengio}, Yoshua and {Kamalloo}, Ehsan},
+booktitle={arXiv},
+month=may,
+year={2025},
+url={https://arxiv.org/abs/2505.14970},
+preview={sec-overview.png},
+arxiv={2505.14970},
+code={https://github.com/ServiceNow/sec},
+abstract={Reinforcement learning (RL) has proven effective for fine-tuning large language models (LLMs), significantly enhancing their reasoning abilities in domains such as mathematics and code generation. A crucial factor influencing RL fine-tuning success is the training curriculum: the order in which training problems are presented. While random curricula serve as common baselines, they remain suboptimal; manually designed curricula often rely heavily on heuristics, and online filtering methods can be computationally prohibitive. To address these limitations, we propose Self-Evolving Curriculum (SEC), an automatic curriculum learning method that learns a curriculum policy concurrently with the RL fine-tuning process. Our approach formulates curriculum selection as a non-stationary Multi-Armed Bandit problem, treating each problem category (e.g., difficulty level or problem type) as an individual arm. We leverage the absolute advantage from policy gradient methods as a proxy measure for immediate learning gain. At each training step, the curriculum policy selects categories to maximize this reward signal and is updated using the TD(0) method. Across three distinct reasoning domains: planning, inductive reasoning, and mathematics, our experiments demonstrate that SEC significantly improves models' reasoning capabilities, enabling better generalization to harder, out-of-distribution test problems. Additionally, our approach achieves better skill balance when fine-tuning simultaneously on multiple reasoning domains. These findings highlight SEC as a promising strategy for RL fine-tuning of LLMs.},
+}
+
+
 @inproceedings{TapeAgents,
 title={TapeAgents: a Holistic Framework for Agent Development and Optimization},
 author={{Bahdanau}, Dzmitry and {Gontier}, Nicolas and {Huang}, Gabriel and {Kamalloo}, Ehsan and {Pardinas}, Rafael and {Piché} Alex and {Scholak}, Torsten and {Shliazhko}, Oleh and {Prince Tremblay}, Jordan and {Ghanem}, Karam and {Parikh}, Soham and {Tiwari}, Mitul and {Vohra}, Quaizar},
