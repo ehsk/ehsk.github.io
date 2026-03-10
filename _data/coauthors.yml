@@ -1,15 +1,16 @@
-"Dziri":
-  - firstname: ["Nouha", "Nouha Dziri"]
-    url: https://cs.ualberta.ca/~dziri
 
-"Rafiei":
+"rafiei":
   - firstname: ["Davood", "Davood Rafiei"]
     url: https://cs.ualberta.ca/~drafiei
 
-"Zaiane":
-  - firstname: ["Osmar",]
+"zaiane":
+  - firstname: ["Osmar", "Osmar Zaiane"]
     url: https://cs.ualberta.ca/~zaiane
 
-"Lin":
-  - firstname: ["Jimmy"]
+"lin":
+  - firstname: ["Jimmy", "Jimmy Lin"]
     url: https://cs.uwaterloo.ca/~jimmylin/
+
+"reddy":
+  - firstname: ["Siva", "Siva Reddy"]
+    url: https://sivareddy.in/
